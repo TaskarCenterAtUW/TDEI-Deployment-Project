@@ -25,21 +25,21 @@ _Figure 1: overview of the system_
 
 Below are the repositories that make up the complete TDEI system:
 
-* Workspaces. The monorepo for the entire Workspaces system including its frontend, backend API(s) and a dispatching reverse proxy, the Rapid editor, the GTFS Pathways Editor, the OSW Tasking Manager and some debug tooling. 
+* **Workspaces**. The monorepo for the entire **Workspaces** system including its frontend, backend API(s) and a dispatching reverse proxy, the **Rapid** editor, the **GTFS Pathways Editor**, the **OSW Tasking Manager** and some debug tooling. 
   - https://github.com/TaskarCenterAtUW/workspaces-stack
   - See https://github.com/TaskarCenterAtUW/workspaces-stack/blob/main/README.md for more information on the contents of this repository. 
 
-* GoInfoGame. An iOS and Android version of GoInfoGame, a mobile app to contribute to a Workspace. 
+* **GoInfoGame**. An iOS and Android version of GoInfoGame, a mobile app to contribute to a Workspace. 
   - iOS: https://github.com/TaskarCenterAtUW/GoInfoGame-iOS
   - Android: https://github.com/TaskarCenterAtUW/GoInfoGame-Android 
 
-* Walkshed Analysis. A tool to quantify and analyze access to/from a point with detailed statistics on accessible community resources, accessibility barriers and other measures. 
+* **Walkshed Analysis**. A tool to quantify and analyze access to/from a point with detailed statistics on accessible community resources, accessibility barriers and other measures. 
   - https://github.com/AccessMap/accessmap-walksheds 
 
-* AccessMap Multimodal. A trip planner that allows users to express sidewalk preferences and receive suitable paths via mapped infrastructure. 
+* **AccessMap Multimodal**. A trip planner that allows users to express sidewalk preferences and receive suitable paths via mapped infrastructure. 
   - https://github.com/AccessMap/accessmap 
 
-* Audiom. A third-party developed application integrated with TDEI as part of the USDOT funded work.
+* **Audiom**. A third-party developed application integrated with TDEI as part of the USDOT funded work.
   - https://www.audiom.net/
 
 * TDEI Core and TDEI Query. 
@@ -74,6 +74,6 @@ Below are the repositories that make up the complete TDEI system:
       - https://github.com/TaskarCenterAtUW/TDEI-python-osw-formatter
       - https://github.com/TaskarCenterAtUW/TDEI-python-lib-osw-formatter 
 
-* System Documentation and Developer Tools. Supporting tooling and documentation that may be useful for setup and maintenance. 
+* **System Documentation and Developer Tools**. Supporting tooling and documentation that may be useful for setup and maintenance. 
   - https://github.com/TaskarCenterAtUW/TDEI-tools
   - https://github.com/TaskarCenterAtUW/TDEI-quality-dashboard 

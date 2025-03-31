@@ -20,7 +20,8 @@ See https://github.com/OpenSidewalks/OpenSidewalks-Schema for more detail.
 
 ## B. The TDEI System
 
-Figure 1: overview of the system
+![Screenshot of the TDEI System](/TDEI.png)  
+_Figure 1: overview of the system_
 
 Below are the repositories that make up the complete TDEI system:
 

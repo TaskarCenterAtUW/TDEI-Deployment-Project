@@ -2,7 +2,7 @@
 
 Cities, organizations, and individuals currently lack detailed, accurate, and standardized data on the locations of footpaths, cycle paths, sidewalks, and crossings. Moreover, there is inconsistent information about the attributes of these pathways that affect walking, rolling, and non-motorized travel, as well as a limited understanding of how these paths are connected or disconnected.
 
-The OpenSidewalks project aims to address this data deficiency by proposing a) a robust data schema (OpenSideWalks or OSW) and b) a comprehensive data tools ecosystem that support collection and maintenance of sidewalk data (which we call the TDEI). 
+The OpenSidewalks project aims to address this data deficiency by proposing a) **a robust data schema** (OpenSideWalks or OSW) and b) **a comprehensive data tools ecosystem** that support collection and maintenance of sidewalk data (which we call the TDEI). 
 
 These resources are designed to give planners, policy makers, and community advocates the data they need to improve pedestrian infrastructure, particularly in historically underserved areas.
 

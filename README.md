@@ -25,53 +25,54 @@ Figure 1: overview of the system
 Below are the repositories that make up the complete TDEI system:
 
 * Workspaces. The monorepo for the entire Workspaces system including its frontend, backend API(s) and a dispatching reverse proxy, the Rapid editor, the GTFS Pathways Editor, the OSW Tasking Manager and some debug tooling. 
-https://github.com/TaskarCenterAtUW/workspaces-stack
-See https://github.com/TaskarCenterAtUW/workspaces-stack/blob/main/README.md for more information on the contents of this repository. 
+  - https://github.com/TaskarCenterAtUW/workspaces-stack
+  - See https://github.com/TaskarCenterAtUW/workspaces-stack/blob/main/README.md for more information on the contents of this repository. 
 
 * GoInfoGame. An iOS and Android version of GoInfoGame, a mobile app to contribute to a Workspace. 
-iOS: https://github.com/TaskarCenterAtUW/GoInfoGame-iOS
-Android: https://github.com/TaskarCenterAtUW/GoInfoGame-Android 
+  - iOS: https://github.com/TaskarCenterAtUW/GoInfoGame-iOS
+  - Android: https://github.com/TaskarCenterAtUW/GoInfoGame-Android 
 
 * Walkshed Analysis. A tool to quantify and analyze access to/from a point with detailed statistics on accessible community resources, accessibility barriers and other measures. 
-https://github.com/AccessMap/accessmap-walksheds 
+  - https://github.com/AccessMap/accessmap-walksheds 
 
 * AccessMap Multimodal. A trip planner that allows users to express sidewalk preferences and receive suitable paths via mapped infrastructure. 
-https://github.com/AccessMap/accessmap 
+  - https://github.com/AccessMap/accessmap 
 
-* Audiom. A third-party developed application integrated with TDEI as part of the USDOT funded work. See https://www.audiom.net/ for more information. 
+* Audiom. A third-party developed application integrated with TDEI as part of the USDOT funded work.
+  - https://www.audiom.net/
 
 * TDEI Core and TDEI Query. 
-TDEI Core and Query frontend. https://github.com/TaskarCenterAtUW/TDEI-user-management-front-end
-Backend APIs:
-TDEI user management APIs. The frontend requires this component to be running. https://github.com/TaskarCenterAtUW/TDEI-user-management-ts
-TDEI data management APIs. The frontend requires this component to be running. https://github.com/TaskarCenterAtUW/TDEI-gateway 
-Query backend APIs. The frontend requires this component to be running. https://github.com/TaskarCenterAtUW/TDEI-osw-datasvc-ts
-Queue Jobs. The Query backend uses these components to pass messages over an Azure message queue and/or in response to messages on the queue as jobs. Some job runners are composed of both a library (*-lib-*) that contains reusable functions of that library, as well as a job runner which pulls messages from the queue, uses the library’s logic, and pushes the results back to the queue.  
-Queue message data transfer objects used by all queue-related components of TDEI. 
-https://github.com/TaskarCenterAtUW/TDEI-event-messages 
-GTFS Pathways validator job. Passes input to Mobility Data validator. 
-https://github.com/TaskarCenterAtUW/TDEI-python-gtfs-pathways-validation
-GTFS Flex validator job. Passes input to Mobility Data validator.
-https://github.com/TaskarCenterAtUW/TDEI-python-gtfs-flex-validation
-Mobility Data GTFS Validator job. Submits dataset to the Mobility Data Canonical validator.
-https://github.com/TaskarCenterAtUW/TDEI-mobilitydata-canonical-validator
-Quality metric job
-https://github.com/TaskarCenterAtUW/TDEI-python-osw-quality-metric
-OSW Validator job:
-https://github.com/TaskarCenterAtUW/TDEI-python-osw-validation
-https://github.com/TaskarCenterAtUW/TDEI-python-lib-osw-validation
-Extract-Transform-Load (ETL) job: 
-https://github.com/TaskarCenterAtUW/TDEI-extract-load-service
-Confidence score metric–stub-only right now:
-https://github.com/TaskarCenterAtUW/TDEI-python-osw-confidence-metric
-https://github.com/TaskarCenterAtUW/TDEI-python-lib-confidence-metric
-DEM inclination tagging job:
-https://github.com/TaskarCenterAtUW/TDEI-python-osw-incline
-https://github.com/TaskarCenterAtUW/TDEI-python-lib-osw-inclination
-OSM to OSW and vice-versa conversion job:
-https://github.com/TaskarCenterAtUW/TDEI-python-osw-formatter
-https://github.com/TaskarCenterAtUW/TDEI-python-lib-osw-formatter 
+  - TDEI Core and Query frontend. https://github.com/TaskarCenterAtUW/TDEI-user-management-front-end
+  - Backend APIs:
+    - TDEI user management APIs. The frontend requires this component to be running. https://github.com/TaskarCenterAtUW/TDEI-user-management-ts
+    - TDEI data management APIs. The frontend requires this component to be running. https://github.com/TaskarCenterAtUW/TDEI-gateway 
+    - Query backend APIs. The frontend requires this component to be running. https://github.com/TaskarCenterAtUW/TDEI-osw-datasvc-ts
+  - Queue Jobs. The Query backend uses these components to pass messages over an Azure message queue and/or in response to messages on the queue as jobs. Some job runners are composed of both a library (*-lib-*) that contains reusable functions of that library, as well as a job runner which pulls messages from the queue, uses the library’s logic, and pushes the results back to the queue.  
+    - Queue message data transfer objects used by all queue-related components of TDEI. 
+      - https://github.com/TaskarCenterAtUW/TDEI-event-messages 
+    - GTFS Pathways validator job. Passes input to Mobility Data validator. 
+      - https://github.com/TaskarCenterAtUW/TDEI-python-gtfs-pathways-validation
+    - GTFS Flex validator job. Passes input to Mobility Data validator.
+      - https://github.com/TaskarCenterAtUW/TDEI-python-gtfs-flex-validation
+    - Mobility Data GTFS Validator job. Submits dataset to the Mobility Data Canonical validator.
+      - https://github.com/TaskarCenterAtUW/TDEI-mobilitydata-canonical-validator
+    - Quality metric job
+      - https://github.com/TaskarCenterAtUW/TDEI-python-osw-quality-metric
+    - OSW Validator job:
+      - https://github.com/TaskarCenterAtUW/TDEI-python-osw-validation
+      - https://github.com/TaskarCenterAtUW/TDEI-python-lib-osw-validation
+    - Extract-Transform-Load (ETL) job: 
+      - https://github.com/TaskarCenterAtUW/TDEI-extract-load-service
+    - Confidence score metric–stub-only right now:
+      - https://github.com/TaskarCenterAtUW/TDEI-python-osw-confidence-metric
+      - https://github.com/TaskarCenterAtUW/TDEI-python-lib-confidence-metric
+    - DEM inclination tagging job:
+      - https://github.com/TaskarCenterAtUW/TDEI-python-osw-incline
+      - https://github.com/TaskarCenterAtUW/TDEI-python-lib-osw-inclination
+    - OSM to OSW and vice-versa conversion job:
+      - https://github.com/TaskarCenterAtUW/TDEI-python-osw-formatter
+      - https://github.com/TaskarCenterAtUW/TDEI-python-lib-osw-formatter 
 
 * System Documentation and Developer Tools. Supporting tooling and documentation that may be useful for setup and maintenance. 
-https://github.com/TaskarCenterAtUW/TDEI-tools
-https://github.com/TaskarCenterAtUW/TDEI-quality-dashboard 
+  - https://github.com/TaskarCenterAtUW/TDEI-tools
+  - https://github.com/TaskarCenterAtUW/TDEI-quality-dashboard 

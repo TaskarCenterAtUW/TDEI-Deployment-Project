@@ -34,10 +34,10 @@ Below are the repositories that make up the complete TDEI system:
   - Android: https://github.com/TaskarCenterAtUW/GoInfoGame-Android 
 
 * **Walkshed Analysis**. A tool to quantify and analyze access to/from a point with detailed statistics on accessible community resources, accessibility barriers and other measures. 
-  - https://github.com/AccessMap/accessmap-walksheds 
+  - https://github.com/TaskarCenterAtUW/WalkshedTool 
 
 * **AccessMap Multimodal**. A trip planner that allows users to express sidewalk preferences and receive suitable paths via mapped infrastructure. 
-  - https://github.com/AccessMap/accessmap 
+  - https://github.com/TaskarCenterAtUW/AccessMap 
 
 * **Audiom**. A third-party developed application integrated with TDEI as part of the USDOT funded work.
   - https://www.audiom.net/
